@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - MySoundIcon</title>
+    <link rel="icon" type="image/png" href="icon_256x256.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #6366f1;
+            --accent-hover: #818cf8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: var(--bg-gradient);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            position: relative;
+            line-height: 1.6;
+        }
+
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: 0;
+            animation: float 10s ease-in-out infinite alternate;
+        }
+
+        .orb-1 { width: 400px; height: 400px; background: rgba(99, 102, 241, 0.4); top: -100px; left: -100px; }
+        .orb-2 { width: 500px; height: 500px; background: rgba(168, 85, 247, 0.3); bottom: -200px; right: -100px; animation-delay: -5s; }
+
+        @keyframes float {
+            0% { transform: translateY(0) translateX(0); }
+            100% { transform: translateY(50px) translateX(30px); }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 10;
+        }
+
+        nav {
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            letter-spacing: -0.5px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            background: linear-gradient(135deg, var(--accent), #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 28px;
+        }
+
+        main {
+            padding: 40px 0;
+            background: var(--glass-bg);
+            backdrop-filter: blur(24px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 24px;
+            background: linear-gradient(180deg, #fff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 { font-size: 24px; margin-top: 32px; margin-bottom: 16px; color: #fff; }
+        p { color: var(--text-secondary); margin-bottom: 16px; font-size: 16px; }
+        ul { color: var(--text-secondary); margin-bottom: 16px; padding-left: 20px; }
+        li { margin-bottom: 8px; }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-secondary);
+            font-size: 14px;
+            position: relative;
+            z-index: 10;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+    </style>
+</head>
+<body>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><img src="icon_256x256.png" width="40px" height="40px" style="vertical-align: middle;"></span>
+                My Sound Icon
+            </a>
+            <a href="index.html" style="color: var(--text-secondary);">Back to Home</a>
+        </nav>
+
+        <main>
+            <h1>Privacy Policy</h1>
+            <p>Last updated: May 25, 2026</p>
+
+            <h2>1. Information We Do Not Collect</h2>
+            <p>MySoundIcon is built with your privacy in mind. We believe that your data is your own. Our application operates entirely locally on your macOS device.</p>
+            <ul>
+                <li>We do <strong>not</strong> collect personal information.</li>
+                <li>We do <strong>not</strong> track your usage, audio device choices, or media playback habits.</li>
+                <li>We do <strong>not</strong> use third-party analytics or crash reporting tools that phone home.</li>
+            </ul>
+
+            <h2>2. Local Data Storage</h2>
+            <p>Any settings or preferences you configure within MySoundIcon (such as your starred audio devices or chosen custom icons) are stored locally on your Mac. This data never leaves your device.</p>
+
+            <h2>3. Network Access</h2>
+            <p>MySoundIcon does not require an active internet connection to function and does not transmit any data over the internet.</p>
+
+            <h2>4. Changes to This Policy</h2>
+            <p>If we decide to change our privacy policy in the future, we will update the Privacy Policy modification date at the top of this page. However, our commitment to a non-tracking, local-first application will remain our priority.</p>
+
+            <h2>5. Contact Us</h2>
+            <p>If you have any questions or suggestions regarding our Privacy Policy, please contact us at: <br>
+            <a href="mailto:ivan.ivanenko@gmail.com">ivan.ivanenko@gmail.com</a></p>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Ivan Ivanenko. Built for macOS.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy.html" style="color: var(--text-secondary); text-decoration: none; margin-right: 15px;">Privacy Policy</a>
+                <a href="terms.html" style="color: var(--text-secondary); text-decoration: none;">Terms & Conditions</a>
+            </p>
+            <p style="margin-top: 8px;">Contact: <a href="mailto:ivan.ivanenko@gmail.com" style="color: var(--text-secondary); text-decoration: none;">ivan.ivanenko@gmail.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
