@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/icon_256x256.png" width="128" height="128" alt="My Sound Icon">
+  <img src="docs/icon_256x256.png" width="128" height="128" alt="Sound Icon">
   
   <h1>Sound Icon</h1>
   <p><b>Take Control of Your Sound Devices</b></p>
