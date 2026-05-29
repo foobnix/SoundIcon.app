@@ -5,7 +5,7 @@
   <p><b>Take Control of Your Sound Devices</b></p>
   <p>Easily manage audio inputs and outputs, customize device icons, and star your favorites to switch between them in a single click.<br>Intercept media keys and control volume - all within a beautiful UI.<br>The app is completely free.</p>
   
-  <a href="https://github.com/foobnix/Sound Icon.com/releases"><b>Download for macOS</b></a>
+  <a href="https://github.com/foobnix/SoundIcon.app/releases"><b>Download for macOS</b></a>
 </div>
 
 ---
